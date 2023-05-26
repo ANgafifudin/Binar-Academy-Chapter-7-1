@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+/* main {
+  background-color: rgb(14, 0, 54);
+} */
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poke-list {
+  width: 150px;
+  border-radius: 8px;
+  height: fit-content;
+  margin-bottom: 35px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  background: rgb(14, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 0, 255, 1) 0%,
+    rgba(69, 69, 255, 1) 12%,
+    rgba(136, 235, 255, 1) 100%
+  );
+}
+
+.poke-list:hover {
+  box-shadow: 0 7px 17px rgba(0, 0, 0, 0.8);
+}
+
+.poke-image {
+  width: 90%;
+  height: 90%;
+  border-radius: 3px;
+}
+
+.poke-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.poke-title {
+  position: fixed top;
+  width: 100%;
+  font-size: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: rgb(3, 0, 97);
+  background-color: aquamarine;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header {
+  height: 70px;
+  background-color: rgb(3, 0, 97);
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.title {
+  text-decoration: none;
+  color: rgb(252, 235, 0);
+  font-family: "Poppins";
+  font-size: 40px;
+}
+
+.title:hover {
+  color: rgb(255, 145, 0);
+}
+
+.poke-list-detail {
+  width: 400px;
+  border-radius: 8px;
+  height: fit-content;
+  margin-bottom: 35px;
+  padding-bottom: 10px;
+  margin-left: 35%;
+  margin-top: 100px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background: rgb(14, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 0, 255, 1) 0%,
+    rgba(69, 69, 255, 1) 12%,
+    rgba(136, 235, 255, 1) 100%
+  );
+}
+
+.poke-image-detail {
+  width: 90%;
+  height: 90%;
+  border-radius: 3px;
+}
+
+.poke-name-detail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.details {
+  margin-top: 50px;
+}
+
+.list-group .type {
+  width: fit-content;
+  color: white;
+  margin-right: 5px;
+  background-color: rgb(3, 0, 97);
+  margin-bottom: 10px;
+}
+
+.stats {
+  margin-bottom: 100px;
+}
+
+.stat {
+  background-color: rgb(3, 0, 97);
+}
+
+.numb-stat {
+  margin-right: 5px;
+}
+
+.stat-name {
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.stat-bar {
+  background-color: rgb(252, 235, 0);
+}
